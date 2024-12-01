@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 70rem; /* Soma do sidebar e do post, mais o espaço entre ambos Tudo dá 1120px. 1rem = 16px. 1120/16 = 70 */
+  margin: 2rem auto;
+  padding: 0 1rem; /*caso a tela diminua para > 70 rem o conteúdo não vai ficar colado nas bordas das pags*/
+
+  display: grid;
+  grid-template-columns: 256px 1fr; /*sidebar fixo, post flexível*/
+  gap: 2rem;
+  align-items: flex-start;
+}
