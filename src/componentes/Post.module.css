@@ -99,7 +99,6 @@ vai ser aplicado apenas em posts que estejam embaixo de outro.
   margin-top: 1rem
 }
 
-
 .commentForm footer{
 /* 
   faz o botão de públicar desaparecer . 
@@ -131,4 +130,8 @@ vai ser aplicado apenas em posts que estejam embaixo de outro.
 
 .commentForm button:hover {
   background: var(--green-300)
+}
+
+.commentList {
+  margin-top: 2rem;
 }
